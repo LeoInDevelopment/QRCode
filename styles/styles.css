@@ -1,0 +1,59 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: hsl(212, 45%, 89%)
+}
+
+img{
+    width: 12.75rem;
+    height: 12.75rem;
+    border-radius: 10px;
+}
+
+.attribution{ 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.container{
+    
+    font-family: 'Montserrat Alternates', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  
+}
+
+.container-p1{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 16px;
+}
+
+.container-p2{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+
+}
+
+.second-box{
+    background-color: white;
+    width: 12.75rem;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 15px;
+        
+    
+  
+}
+
+@-ms-viewport {
+    width: 375px ;
+  } 
